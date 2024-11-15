@@ -51,7 +51,7 @@ public class Fact {
     @Override
     public int hashCode(){
         return Objects.hash(name, arguments);
-    }
+    } // tu return un objet maius le type est int
 
 
 
