@@ -27,9 +27,9 @@ public class FactBase {
 
     public String toString(){
         StringBuilder sb = new StringBuilder();
-        sb.append("liste des faits: \n");
-        for(Fact f : facts){
-            sb.append(f.toString()+"\n");
+         for(Fact f : facts){
+            sb.append(f.toString()+" \n");
+           
         }
         return sb.toString();
     }
